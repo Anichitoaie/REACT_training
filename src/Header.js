@@ -36,6 +36,7 @@ function Header() {
         <button class="buttonn"> CSS Button </button>
         <button style= {{color:"red" ,backgroundColor:"lightblue"}}>CSS Button</button>
         <button style= {Styles}>CSS Button</button>
+        <button style= {Styles}>CSS Button</button>
        
 
 
