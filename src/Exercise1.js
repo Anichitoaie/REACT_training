@@ -15,8 +15,9 @@ function Exercise1(props){
 
     return(
         <div>
-        <h3 style={styles}>Question:{props.question}</h3>
-        <h3 style={styles2}>Answer:{props.answer}</h3>
+        {/*<h3 style={styles}>Question:{props.question}</h3>*/}
+        <h3 style={{display:props.question ? "block" : "none"}}>Question:{props.question}</h3>
+        <span style={styles2}>Answer:{props.answer}</span>
         </div>
     )
 
